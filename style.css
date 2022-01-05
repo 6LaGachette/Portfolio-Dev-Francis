@@ -1,0 +1,27 @@
+* {
+    font-family: 'Assistant', sans-serif;
+    background-color: #BEEDAA;
+    color: #ffffff;
+
+}
+
+.navbar {
+display: flex;
+justify-content: center;
+}
+
+.navbar li {
+display: inline;
+justify-content: space-between;
+align-items: center;
+margin: 30px;
+padding: 10px;
+border: 2px solid ;
+border-radius:10%;
+background-color: #d5ffd9;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+}
