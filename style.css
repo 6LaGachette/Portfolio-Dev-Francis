@@ -1,3 +1,4 @@
+/* PAGE D'ACCUEIL */
 * {
     font-family: 'Assistant', sans-serif;
     ;
@@ -26,7 +27,6 @@ justify-content: space-between;
 align-items: center;
 margin: 30px;
 padding: 10px;
-border: 2px solid ;
 border-radius:10%;
 background-color: #d5ffd9;
 
@@ -72,26 +72,51 @@ h1, h2 {
 
 .projet-1 {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet-1 img {
+    margin: 50px;
 }
 
 .projet-2 {
 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet-2 img {
+    margin: 50px;
 }
 
 .projet-3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.projet-3 img {
+    margin: 50px;
+}
+
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 15px 32px;
+    margin: 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 50px;
 }
 
 button:hover {
@@ -101,4 +126,24 @@ button:hover {
 footer {
     text-align: center;
     margin-top: 20px;
+}
+
+
+/* PAGE CONTACT */
+
+.logo-contact img {
+    width: 60px;
+    margin: 20px;
+    
+}
+
+.titre-contact {
+    margin-top: 50px;
+}
+
+.info-contact {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+
 }
