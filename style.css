@@ -29,8 +29,14 @@ margin: 30px;
 padding: 10px;
 border-radius:10%;
 background-color: #d5ffd9;
+transition: background-color 1s ;
 
 
+}
+
+.navbar li:hover {
+    background-color: #4CAF50;
+   
 }
 
 .navbar li a {
@@ -62,12 +68,19 @@ h1, h2 {
     font-size: 7rem;
     color: white;
 
+}
 
+ .text-presentation {
+    font-size: 1.5rem;
 }
 
 .presentation {
     display: flex;
     align-items: center;
+}
+
+.projets h2 {
+    margin-top: 50px;
 }
 
 .projet-1 {
@@ -79,6 +92,7 @@ h1, h2 {
 
 .projet-1 img {
     margin: 50px;
+    
 }
 
 .projet-2 {
@@ -138,12 +152,37 @@ footer {
 }
 
 .titre-contact {
-    margin-top: 50px;
+    margin-top: 100px;
+    font-size: 4rem;
+    text-align: center;
 }
 
 .info-contact {
-    display: flex;
-    align-items: center;
-    margin-left: 80px;
+    
+   text-align: center;
+    padding: 50px;
 
 }
+
+.contact-container {
+    text-align: center;
+   
+}
+
+.contact-container h3 {
+    margin-bottom: 20px;
+}
+
+.animation-bientot {
+    text-align: center;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
