@@ -4,6 +4,8 @@
     ;
     color: black;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -72,6 +74,7 @@ h1, h2 {
 
  .text-presentation {
     font-size: 1.5rem;
+    margin: 15px;
 }
 
 .presentation {
@@ -186,3 +189,68 @@ footer {
     display: inline-block;
     line-height: 1em;
   }
+
+  /* RESPONSIVE PART */ 
+
+  @media screen and (max-width : 1236px){
+      button {
+          font-size: 12px;
+          padding: 10px 20px;
+      }
+  }
+
+  @media screen and (max-width : 906px){
+    button {
+        font-size: 10px;
+        padding: 5px 10px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width : 1002px){
+    .text-presentation {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .pdp {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width : 562px){
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    .pdp {
+        width: 300px;
+        
+    }
+}
+}
+
+@media screen and (max-width : 488px){
+    .navbar li {
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width : 375px){
+    .navbar li {
+        margin: 0px;
+
+    }
+    .presentation {
+        display: block;
+    }
+    .pdp {
+        padding-left: 100px;
+    }
+    
+    
+}
+}
